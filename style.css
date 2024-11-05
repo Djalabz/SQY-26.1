@@ -1,0 +1,21 @@
+.parent {
+    width: 600px;
+    height: 500px;
+    background-color: gray;
+    margin: auto;
+}
+
+.enfant {
+    width: 100px;
+    height: 70px;
+    font-size: 32px;
+    color: white;
+}
+
+.enfant:nth-child(odd) {
+    background-color: brown;
+}
+
+.enfant:nth-child(even) {
+    background-color: green;
+}
